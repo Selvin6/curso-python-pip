@@ -7,10 +7,22 @@ cd game
 python3 main.py
 ``` 
 
-# App Project
+# App Project WINDOWS
 ``` sh
 git clone
 cd app
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+``` 
+
+
+# App Project MAC
+``` sh
+git clone
+cd app
+virtualenv -p python3 env
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
